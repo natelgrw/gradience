@@ -20,8 +20,7 @@ dependencies:
   - torchvision
   - torchaudio
   - gpytorch
-  - botorch
-  - cudatoolkit=11.8
+  - botorch      
   - pip:
-      - mocca2
-      - autochem
+    - mocca2
+    - pyteomics
