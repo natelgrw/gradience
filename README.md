@@ -43,7 +43,7 @@ Product prediction uses [ASKCOS](https://askcos.mit.edu). A headless web scraper
 
 ### Retention Time Prediction
 
-Retention times are predicted using the ReTiNA_XGB1 model from the ReTiNA retention time prediction series. The model accepts full LC-MS method parameters (gradient, column, flow rate, temperature) and molecular descriptors to predict retention times in seconds. The model file is in `rt_pred/ReTiNA_XGB1/`.
+Retention times are predicted using the [ReTiNA_XGB1](https://huggingface.co/natelgrw/ReTiNA-Models) model from the ReTiNA retention time prediction series. The model accepts full LC-MS method parameters (gradient, column, flow rate, temperature) and molecular descriptors to predict retention times in seconds. The model file is in `rt_pred/ReTiNA_XGB1/`.
 
 ```
 @modelcollection{retinamodels,
