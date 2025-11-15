@@ -94,7 +94,7 @@ The optimizer typically converges within 100-200 evaluations depending on proble
 
 ### Output Format
 
-The `optimize_gradient()` function generates a JSON output:
+The `optimize_gradient()` function generates an OptGradient JSON output:
 
 ```json
 {
