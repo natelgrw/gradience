@@ -59,11 +59,11 @@ Retention times are predicted using the [ReTiNA_XGB1](https://huggingface.co/nat
 
 Gradients are represented by 18 parameters that map to interpretable multi-step profiles:
 
-**%B Parameters (0-100):**
+**%B Parameters:**
 - `b_0` to `b_9`: Ten independent %B values at successive time points
 - No monotonicity constraints allow complex shapes (plateaus, reversals, multi-step)
 
-**Time Spacing Parameters (0-1, Auto-Normalized):**
+**Time Spacing Parameters:**
 - `spacing_1` to `spacing_8`: Eight relative time intervals between points
 - `t_0` fixed at 0 minutes, `t_9` fixed at method length
 - Automatically normalized to distribute across total method duration
