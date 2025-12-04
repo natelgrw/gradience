@@ -134,7 +134,7 @@ The `optimize_gradient()` function generates an OptGradient JSON output:
 If you use Gradience in your research, please cite:
 
 ```
-@software{gradience1.0.0,
+@software{gradience,
   title={Gradience: Automated LC-MS Gradient Optimization},
   author={Leung, Nathan},
   institution={Coley Research Group @ MIT},
