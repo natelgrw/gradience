@@ -1,4 +1,4 @@
-# Gradience: Automated LC-MS Gradient Optimization
+# Gradience
 
 Gradience is a Python package for automated HPLC gradient optimization in LC-MS workflows. By combining forward synthesis prediction, retention time modeling, and Bayesian optimization, it designs optimal gradients that maximize chromatographic separation of reaction products.
 
